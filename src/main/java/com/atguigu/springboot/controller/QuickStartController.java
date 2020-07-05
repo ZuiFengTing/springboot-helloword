@@ -8,6 +8,7 @@ public class QuickStartController {
 
     @RequestMapping("/quick")
     public String quick(){
+        System.out.println("aaa");
         return "springboot 访问成功!";
     }
 
